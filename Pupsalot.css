@@ -351,7 +351,8 @@ h3 {
 
 
 
-.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+.s-chat-message:nth-child(even), 
+.chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: #d0bbff !important;
         color: #d6fdff !important;
     text-shadow: 1px 1px 2px #2030b3 !important;
@@ -361,7 +362,8 @@ h3 {
 
 
 
-.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+.s-chat-message:nth-child(odd), 
+.chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgb(153, 224, 250) !important;
         color: rgb(233, 224, 255) !important;
     text-shadow: 1px 1px 1px #9d18c5 !important;
@@ -370,8 +372,8 @@ h3 {
 
 
 
-
-.s-chat-message__pinned /* Pinned Message */ {
+.s-chat-message__pinned, 
+.chat-message__pinned/* Pinned Message */ {
 	background: rgb(235, 185, 235) !important;
         color: rgb(255, 255, 255) !important;
     text-shadow: 1px 1px 1px rgb(0, 0, 0) !important;
@@ -381,7 +383,8 @@ h3 {
 
 
 
-.s-chat-message_timestamp /* Timestamps */ {
+.s-chat-message_timestamp, 
+.chat-message__timestamp /* Timestamps */ {
 	color: #fff !important;
 }
 
