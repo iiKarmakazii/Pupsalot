@@ -24,8 +24,8 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 
 body {
-	background: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png') center center no-repeat fixed !important;
-	background-size: cover!important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png') center center fixed;;
+	background-size: 100%;
 	font-family: "Lilita One", sans-serif;
     text-shadow: 1px 1px 1px #bf2ec7 !important;
 	color: #ffe1f8
