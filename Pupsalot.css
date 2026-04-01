@@ -344,10 +344,44 @@ h3 {
 
 
 /* CHAT */
+/* mobile? */
+div#chatMessageContainer {
+    display: block !important;
+    width: 100% !important;
+    height: 400px !important;
+    max-height: 60vh !important;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch !important;
+    border: none !important;
+}
+
+.s-chat-message:nth-of-type(even) {
+    background: #d0bbff !important;
+    color: #d6fdff !important;
+    text-shadow: 1px 1px 2px #2030b3 !important;
+    border: none !important;
+}
+
+.s-chat-message:nth-of-type(odd) {
+    background: rgb(153, 224, 250) !important;
+    color: rgb(233, 224, 255) !important;
+    text-shadow: 1px 1px 1px #9d18c5 !important;
+    border: none !important;
+}
+
+.s-chat-message__pinned {
+    background: rgb(235, 185, 235) !important;
+    color: rgb(255, 255, 255) !important;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0) !important;
+    border: none !important;
+}
+
+.s-chat-message_timestamp {
+    color: #fff !important;
+}
 
 
-
-
+--
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: #d0bbff !important;
         color: #d6fdff !important;
@@ -2279,3 +2313,4 @@ border-radius: 10px !important;
 small.text-muted{
     color: #fff
 }
+
