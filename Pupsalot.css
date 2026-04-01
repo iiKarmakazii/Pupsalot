@@ -22,7 +22,11 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 
 
-
+@media only screen and (min-width: 1025px) {
+    body {
+        background-attachment: fixed !important;
+    }
+}
 body {
 	background: url('https://static.lioden.com/images/dynamic/backgrounds/dreamwalker.png')center center no-repeat fixed;
 	background-size: 100%;
@@ -390,7 +394,12 @@ h3 {
 div#chatMessageContainer {
 	border: none !important;
 }
-
+div#chatMessageContainer {
+    display: block !important;
+    width: 100% !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch; /* This enables smooth scrolling on iPad */
+}
 
 
 
@@ -882,6 +891,7 @@ border-radius: 10px !important;
 			width: 790px;
 		}
 	}
+
 .custom-box {
     background: url('https://static.lioden.com/images/dynamic/backgrounds/romanticwaterfall.png') no-repeat center center;
     background-size: cover;
