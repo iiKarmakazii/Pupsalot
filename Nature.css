@@ -667,11 +667,10 @@ a:hover {
 
 div#lion_image {
 	opacity: 1
-	position: relative !important;
 }
 #lion_image:after {
    content: url("https://iili.io/CejKAx9.png");
-   position: absolute;
+   position: absolute!important;
 	scale: .6;
    left: -125px !important;
    top: -128px !important;
