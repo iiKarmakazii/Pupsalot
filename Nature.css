@@ -675,7 +675,12 @@ div#lion_image {
    left: -125px !important;
    top: -128px !important;
 }
-
+@media screen and (max-width: 1200px) {
+    .col-md-9 div#lion_image::after {
+        left: -95px !important; 
+        top: -100px !important;
+    }
+}
 
 table#player img {
 	opacity: 1
