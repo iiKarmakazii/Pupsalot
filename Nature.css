@@ -855,7 +855,9 @@ div.col-xs-5 > a:nth-child(3) > h3 > div {
     margin-top: -48px;
     z-index: 1;
 }
-
+small.text-muted {
+    color:#eee0c5;
+}
 /* Credits to Jester and Katie from V3 template. This is V2? I think */
 img[src$="icon_den_message.png"] {
 content: url('https://www.lioden.com/images/items/Other/buchu.png') !important;
