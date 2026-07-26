@@ -666,21 +666,22 @@ a:hover {
 
 
 div#lion_image {
+   
 	opacity: 1
+      
 }
-#lion_image:after {
-   content: url("https://iili.io/CejKAx9.png");
-   position: absolute!important;
-	scale: .6;
-   left: -125px !important;
-   top: -128px !important;
+
+div#lion_image::after {
+content: "";
+background: url('https://iili.io/CejKAx9.png') no-repeat;
+position: absolute;
+transform: translate(-137px, -245px);
+width: 280px;
+height: 265px;
+background-size: cover;
+
 }
-@media screen and (max-width: 1200px) {
-    .col-md-9 div#lion_image::after {
-        left: -55px !important; 
-        top: -50px !important;
-    }
-}
+
 
 table#player img {
 	opacity: 1
