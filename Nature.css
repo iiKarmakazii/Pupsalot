@@ -667,6 +667,7 @@ a:hover {
 
 div#lion_image {
 	opacity: 1
+	position: relative !important;
 }
 #lion_image:after {
    content: url("https://iili.io/CejKAx9.png");
