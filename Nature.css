@@ -1,0 +1,911 @@
+/*
+Free to use CSS template by Katie (#106445).
+This code may be altered, edited, or re-uploaded. 
+This template may be used to create paid codes (pre-mades and commissions).
+Please do NOT remove this credit, unless your coding becomes unrecognizable from this one! 
+*/
+
+
+/* FONT (From Google Fonts) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+
+/* BACKGROUND */
+
+
+body {
+	background: url('https://iili.io/CNI7j4f.jpg') center center fixed;
+	background-size: 100%;
+	font-family: "Bevan", serif;
+	color: #badc8d;
+     text-shadow: 2px 2px 1px #000
+    
+}
+
+
+/* MAIN PANEL */
+
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(142, 172, 141, .5);
+	border: 3px ridge #6b7a56 ;
+	box-shadow: none;
+	border-radius: 5px
+}
+
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+        border-right: none
+}
+
+
+/* TOPBAR ("Welcome back, ___") */
+
+.topbar {
+	background: linear-gradient(to bottom, #68604D, #261c09);
+	border: 2px ridge #5d5440;
+	border-top: 2px ridge #5d5440;
+	color: #f5e6c7;
+	border-radius: 0px 0px 5px 5px;
+    text-shadow: 2px 2px 1px #000
+}
+
+/* NAVBAR (Den/Crossroads/Etc.) */
+
+
+.navbar {
+		background: linear-gradient(to bottom, rgb(35 77 38 / .7), rgb(1 13 3 / .74));
+	border: none;
+	border-top: none;
+	border-bottom: 3px ridge #6b7a56 ;
+	color: #c7e1a4;
+	border-radius: 5px 5px 0px 0px
+}
+
+
+/* NAVBAR BUTTON TEXT COLOR */
+
+
+.navbar li a {
+	color: #c8daa9 !important;
+    text-shadow: 2px 2px 1px #000
+}
+
+
+/* NAVBAR BUTTON HOVER */
+
+
+.navbar li a:hover {
+	background: rgba(1, 1, 1, 0) !important;
+	border-bottom: none;
+	color: #d5c7ad !important;
+	border-radius: 0px;
+    text-shadow: 2px 2px 1px #090c02;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+
+.breadcrumb {
+	background: linear-gradient(to bottom, #68604D, #261c09);
+        border: 2px ridge #443920;
+	border-radius: 5px
+}
+
+
+/* BREADCRUMB TEXT */
+
+
+.breadcrumb .active {
+	color: #D5c7ad;
+    text-shadow: 2px 2px 1px #000;
+}
+
+
+/* CSS CREDIT */
+
+
+.breadcrumb::after {
+        content: "Edited(#230272)|Template(#106445)";
+        color: #D5c7ad;
+    text-shadow: 2px 2px 1px #000;
+        position: absolute;
+        right: 16%; /* (This may need adjusting) */
+        z-index: 100
+    }
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%
+        }
+    }
+
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%
+        }
+    }
+
+
+/* BOOKMARK BUTTON */
+
+
+input.floatright, input.floatright:hover {
+	background: #d5c7ad00 !important;
+        border: 2px ridge #beaf8f!important;
+	border-radius: 5px!important;
+	color: #D5c7ad!important;
+    text-shadow: 2px 2px 1px #000!important;
+    position: relative;
+    top: -3px!important;
+  
+}
+
+
+/* SWITCH ACCOUNT BUTTON */
+/* bnt code from #230272*/
+.btn.btn-default.button{
+background: linear-gradient(to bottom, #68604D, #261c09);
+  color: #e2d5bc!important;
+    text-shadow: 2px 2px 1px #000;
+    border-radius: 5px;
+    border: 2px ridge #6e5f3e!important;
+}
+
+button.button, button.button:hover {
+	background: linear-gradient(to bottom, #68604D, #261c09);
+          color: #e2d5bc!important;
+    text-shadow: 2px 2px 1px #000;
+    border-radius: 5px;
+    border: 2px ridge #6e5f3e!important;
+}
+
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+
+.alert,
+.alert-warning,
+.alert-danger {
+	background: linear-gradient(to bottom, rgb(131 172 138), #4e5f30);
+	border: 2px ridge #d2c29f;
+	color: #edd9b4;
+    text-shadow: 1px 1px 1px #000;
+	border-radius: 5px !important
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+
+h1 {
+	color: #b4cc89;
+	font-size: 83px;
+	text-align: center;
+    font-family: "Bevan", serif;
+    text-shadow: 3px 3px 1px #1d4b12;
+    letter-spacing: 5px;
+}
+
+
+
+
+/* MEDIUM HEADER */
+
+
+h2 {
+	color: #edd9b4;
+    text-shadow: 1px 1px 1px #000;
+	font-size: 24px;
+	text-align: center
+}
+
+
+
+
+/* SMALL HEADER */
+
+
+h3 {
+	color: #edd9b4 !important;
+    text-shadow: 1px 1px 1px #000;
+	font-size: 14px !important
+}
+
+
+/* RIGHT SIDE PANEL HEADER */
+
+
+.sidebar h3 {
+	color: #edd9b4 !important;
+        font-size: 26px !important;
+    text-shadow: 1px 1px 1px #000!important;
+        font-family: "Bevan", serif;
+}
+
+
+/* RIGHT SIDE PANELS */
+.panel {
+	background:      
+        linear-gradient(to bottom, #675d47, #2d2014) !important;
+	box-shadow: none !important;
+	border: 2px ridge #51452a!important;
+	color: #d5c7ad !important;
+    text-shadow: 2px 2px 1px #000!important;
+	border-radius: 5px
+}
+
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background:      
+        linear-gradient(to bottom, #d2dbb3, #3b441d) !important;
+	color: #edd9b4 !important;
+	border-radius: 5px !important
+}
+
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(1, 1, 1, 0.5);
+	color: #edd9b4 !important;
+	border-radius: 5px !important
+}
+
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #eee0c5 !important
+}
+
+
+/* CHAT */
+
+
+.s-chat-message:nth-child(even) /* Even Numbered Messages */ {
+	background:      
+        linear-gradient(to bottom, #c8daa9, #697b4b) !important;
+        color: #f5e6c7 !important;
+      text-shadow: 2px 2px 1px #090c02!important;
+	border: none !important
+}
+
+
+.s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
+	background: linear-gradient(to bottom, #a69874, #55472e) !important;
+        color: #a5bb87 !important;
+      text-shadow: 2px 2px 1px #000!important;
+	border: none !important
+      
+}
+
+
+.s-chat-message__pinned /* Pinned Message */ {
+	Background:linear-gradient(to bottom, #675d47, #2d2014) !important;
+        color: #eee0c5 !important;
+      text-shadow: 2px 2px 1px #000!important;
+	border: none !important
+}
+
+
+.s-chat-message_timestamp /* Timestamps */ {
+	color: #e7f8d1 !important;
+    text-shadow: 1px 1px 1px #354e0a!important;
+    font-size: 11px;
+}
+
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+
+button#label_currentChannel /* Channel Button ie. Main, Sales */ {
+	background:linear-gradient(to bottom, #675d47, #2d2014) !important;
+        color: #e1e9c4 !important;
+	border: none !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
+
+
+
+
+/* PANEL BACKGROUND COLOR */
+
+
+.table {
+	background:linear-gradient(to bottom, #afa07c, #291f0e) !important;
+	border: 2px ridge #6e5f3e!important;
+	border-collapse: separate;
+	border-radius: 5px
+}
+
+
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+
+.top,
+th{
+          
+       background:linear-gradient(to bottom, #c8daa9, #697b4b) !important;
+     border-bottom: 2px ridge #6e5f3e!important;
+    border-radius: 5px 5px 0px 0px;
+    color: #f5e6c7!important;
+    text-shadow: 1px 2px 1px #000!important;
+    
+}
+
+.bottom {
+	background: linear-gradient(to bottom, #c8daa9, #697b4b) !important;
+	color: #f5e6c7 !important;
+    text-shadow: 1px 2px 1px #000!important;
+     border-top: 2px ridge #6e5f3e!important;
+	border-radius: 0px 0px 5px 5px
+}
+
+
+td.bottom a {
+        text-decoration: none !important
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+
+.inner-table .left {
+	background: linear-gradient(to bottom, rgb(57 104 60 / .5), rgb(0 0 0 / .54))!important;
+        color: #d0e6b1;
+    text-shadow: 2px 2px 1px #000!important;
+	border-radius: 5px !important
+}
+
+
+
+
+/* Color behind the number of all of the things above */
+
+
+.inner-table .right {
+	background: none;
+	border-radius: 0px !important
+}
+
+
+td.right {
+	border-radius: 0px !important
+}
+
+
+/* IGNORE */
+.right_odd {
+	background: none !important
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
+
+
+.cave-grid,
+.mound-grid {
+	background: linear-gradient(to bottom, rgb(57 104 60 / .5), rgb(0 0 0 / .54))!important;
+        color: #d0e6b1;
+	border: 2px ridge #6e5f3e!important;
+	border-radius: 5px !important
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+
+.feature {
+	background: linear-gradient(to bottom, rgb(81 151 86 / .5), #39301b)!important;
+    color: #f5e6c7;
+	border: 2px ridge #6e5f3e!important;
+	border-radius: 5px !important
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+
+.feature,
+div.left {
+	background: linear-gradient(to bottom, rgb(81 151 86 / .5), #39301b)!important;
+	border: 2px ridge #6e5f3e!important;
+	border-radius: 5px !important
+}
+
+
+/* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
+
+
+.table .left {
+	background: rgba(1, 1, 1, 0.1); border-right: 2px ridge #6e5f3e!important;
+        border-radius: 0px
+           
+}
+
+
+/* Color behind the content of the elements listed above */
+
+
+input,
+select,
+textarea {
+	background: #acc38e !important;
+	border: 2px ridge #6e5f3e!important;
+	border-radius: 5px !important;
+	color: #39301b !important;
+    text-shadow: 1px 1px 1px #090c021a!important;
+	box-shadow: none !important;
+	
+}
+
+
+
+/* Copyright, Terms of Service, CoC, etc. */
+
+
+div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
+        color: #000000 !important;
+        text-shadow: none !important
+}
+
+
+/* LINK COLOR */
+
+
+a:link,
+a:visited {
+    text-shadow: 1px 2px 1px #000!important;
+	color: #f5e6c7 !important;
+
+      
+}
+
+
+/* LINK HOVER COLOR */
+
+
+a:hover {
+	color: #c8daa9 !important
+}
+
+
+
+
+/* BOX CONTAINER */
+.ArtCredit {
+    background: linear-gradient(to bottom, #a5c372, #364419) !important;
+    color: #d5c7ad;
+    border: 2px ridge #6e5f3e!important;
+    border-radius: 0px 5px 0px 0px;
+    position: fixed;
+    left: 10px;
+    padding: 0px;
+    bottom: 1px;
+    width: 250px;
+    height: 100px;
+    overflow: visible !important; 
+    transition: 1.6s !important;    
+    z-index: 999999;
+
+}
+.ArtCredit:hover {
+    
+    height: 450px;
+    width: 250px;
+    display: flex;
+
+   
+}
+
+.ArtContent {
+    margin-bottom: -50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden; 
+ margin-top: -19px;
+   
+}
+
+
+
+.ArtContent::-webkit-scrollbar {
+    width: 5px;
+}
+
+.ArtContent::-webkit-scrollbar-thumb{
+    background: rgb(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.custom-box {
+    background: url('https://cdn.discordapp.com/attachments/1473544114338271342/1530439594506457191/IMG_3564.png?ex=6a659471&is=6a6442f1&hm=8f6c3322ba2309b615c8c0ece12b2339e798ff39be2737cae05652004ca8e0c4&') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    border: 3px ridge #6b7a56 ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.5);
+    width: 600px;
+    height: 430px;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    box-sizing: border-box;
+}
+.custom-box::after {
+    content: "HTML Inspired by 191322 | CSS Style 251887";
+    position: absolute;
+    bottom: 1px;
+    right: 340px;
+    color: #faf3eb;
+    font-size: 9px;
+    background: rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.top-bar {
+   background: linear-gradient(to bottom, rgb(106 162 110 / .8), rgb(16 39 5 / .79));
+    color: #ffe9ba;
+    
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: normal;
+    transition: color 0.4s;
+    font-size: 15px; 
+}
+
+.box-content {
+    padding-top: 50px; 
+    font-size: 25px;
+}
+
+
+/* Content box */
+.side-box {
+    background: linear-gradient(to bottom, #cab17f82, #110c0273);
+    border: 3px ridge #443920 ;
+    width: 250px;
+    height: 360px;
+    position: absolute;
+    top: 50px;
+    right: 10px; 
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #eee0c5;
+    overflow: auto;
+    box-shadow: 2px 1px 5px #090c02;
+     text-shadow: 1px 1px 1px #000;
+    z-index: 2;
+}
+
+
+
+/* SCROLL BAR */
+
+
+/* WIDTH */
+
+
+::-webkit-scrollbar {
+	width: 10px
+}
+
+
+
+
+/* BACKGROUND */
+
+
+::-webkit-scrollbar-track {
+	background: #fff0
+}
+
+
+
+
+/* "THUMB" */
+
+
+::-webkit-scrollbar-thumb {
+	background: #0000;
+	border-radius: 0px
+}
+
+
+
+
+/* LION AND USER AVATAR OPACITY. Credit to Pandora */
+
+
+div#lion_image {
+	opacity: 1
+}
+#lion_image:after {
+   content: url("https://iili.io/CejKAx9.png");
+   position: absolute;
+	scale: .6;
+   left: -125px !important;
+   top: -128px !important;
+}
+
+
+table#player img {
+	opacity: 1
+}
+
+
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+
+div#lion_image {
+	border-radius: 50% !important;
+	overflow: hidden;
+	margin-top: 15px; /* May need adjusting */
+	margin-left: 12px /* May need adjusting */
+}
+
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden
+}
+table#player {
+    background: url('https://static.lioden.com/images/dynamic/backgrounds/budongoforest.png') no-repeat center center!important;
+    background-size: cover!important;
+    color: #f5e6c7;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+
+
+/* LIODEN LOGO REPLACER */
+
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('LOGO REPLACER URL')
+}
+
+
+/* CAVE / MOUND IMAGES */
+
+
+div.cave-grid>img /* Pregnant Lionesses */ {
+	content: url('https://static.lioden.com/images/decors/cub/male/over/africanfisheagle.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/kyamburagorge.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 110px !important;
+	object-fit: cover !important;
+}
+
+
+a[href$="511085"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/decors/cub/female/over/parrotbuddy.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/ankasaforest.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 110px !important;
+	object-fit: cover !important;
+}
+a[href$="515193"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/explorenew/all/shinymagpieDAY.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/zaxkingfishergrove.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 110px !important;
+	object-fit: cover !important;
+}
+a[href$="513477"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/decors/female/over/deertushlovebirds.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/thicketgorge.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 110px !important;
+	object-fit: cover !important;
+}
+a[href$="543882"]>div.cave-grid>img {
+	content: url('https://static.lioden.com/images/explorenew/valentines/dancingsecretarybirdsday.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/harennaforest.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 110px !important;
+	object-fit: cover !important;
+}
+
+
+a[href$="lionoverview.php?id=568963"]>div.cave-grid>img /* Pride Overview */ {
+	content: url('https://static.lioden.com/images/explorenew/easter/feralchickenday.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/BlueNileFalls.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 110px !important;
+	object-fit: cover !important;
+
+}
+
+
+a[href$="unsorted.php?id=568963"]>div.cave-grid>img /* Unsorted */ {
+	content: url('https://static.lioden.com/images/explorenew/antipoach/greyparrotday.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/budongoforest.png') no-repeat center !important;
+	background-size: cover !important;
+	position: relative;
+	height: 100px !important;
+	object-fit: cover !important;
+
+}
+a[href$="unsorted-beetles.php?id=568963"] img {
+content: url('https://static.lioden.com/images/explorenew/locust/bluerollerDAY.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/cavewaterfall.png') no-repeat center !important;
+	background-size: cover !important;
+width: 100%;
+height: 100px; } 
+
+a[href$="mound.php?id=261136"] img {
+content: url('https://static.lioden.com/images/explorenew/hunger/whitebackedvulturesday.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/zanzibarwoodlands.png') no-repeat center !important;
+	background-size: cover !important;
+width: 100%;
+height: 100px; } 
+
+a[href$="mound.php?id=248210"] img {
+content: url('https://static.lioden.com/images/decors/teenfemale/over/martialeagle.png') !important;
+	background: url('https://static.lioden.com/images/dynamic/backgrounds/TropicalForest_Day.png') no-repeat center !important;
+	background-size: cover !important;
+width: 100%;
+height: 100px; } 
+
+
+/* MAKES BOXES/DESCRIPTION SHOW ON MOBILE */
+
+
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+	display: block !important;
+}
+
+
+@media only screen and (min-width: 1200px) {
+		div.quote {
+			width: 790px;
+		}
+	}
+
+div.col-xs-6 > a > h3 > div {
+    content: url('https://static.lioden.com/images/items/Other/largeleaves.png');
+    position: absolute;
+    width: 60px;
+    margin-right: 50px;
+    right: -50px;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+div.col-xs-5 > a:nth-child(1) > h3 > div {
+    content: url('https://www.lioden.com/images/items/Other/herbbundle.png');
+    position: absolute;
+    width: 60px;
+    margin-right: 50px;
+    right: -50px;
+    margin-top: -50px;
+    z-index: 1;
+    transform: scaleX(1);
+}
+
+div.col-xs-5 > a:nth-child(3) > h3 > div {
+    content: url('https://www.lioden.com/images/items/Other/imphepho.png');
+    position: absolute;
+    width: 55px;
+    margin-right: 50px;
+    right: -50px;
+    margin-top: -48px;
+    z-index: 1;
+}
+
+/* Credits to Jester and Katie from V3 template. This is V2? I think */
+img[src$="icon_den_message.png"] {
+content: url('https://www.lioden.com/images/items/Other/buchu.png') !important;
+width: 25px !important; }
+
+img[src$="icon_den_trade.png"] {
+content: url('https://www.lioden.com/images/items/Other/umganu.png') !important; 
+width: 24px !important; }
+
+img[src$="icon_den_wishlist.png"] {
+content: url('https://www.lioden.com/images/items/Other/ibogaroot.png') !important;
+width: 24px !important; }
+
+img[src$="icon_den_viewtrade.png"] {
+content: url('https://www.lioden.com/images/items/Other/ubhubhubhu.png') !important;
+width: 24px !important; }
+
+img[src$="icon_den_gift.png"] {
+content: url('https://www.lioden.com/images/items/Other/nutgrass.png') !important;
+width: 24px !important; }
+
+img[src$="icon_den_block.png"] {
+content: url('https://static.lioden.com/images/items/Other/labtestfrog.png') !important;
+width: 24px !important; }
+
+img[src$="icon_den_friend.png"] {
+content: url('https://static.lioden.com/images/items/Other/coffeebeans.png') !important;
+width:24px !important;
+    }
+
+span.text-muted{
+    content: url("https://media0.giphy.com/media/v1.Y2lkPTZjMDliOTUyMDA4dXo2MXRlMTRuc29rb2V1c2NldGx0OHB3bmVoeWpzbHppYnh2MSZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/ZE5DmCqNMr3yDXq1Zu/giphy.gif");
+    width: 40px;
+        color: #afba95
+    
+}
+
+div#commentBox {
+background:      
+        linear-gradient(to bottom, #c8daa9, #697b4b) !important;
+border: 3px ridge #443920 ;
+border-radius: 5px !important;
+color: #ffe1bf !important;}
+
+input.bad {
+background: #acc38e !important;
+    border: 3px ridge #443920 ;
+color: #5d5440 !important;}
+input.bad a {
+color: #ae7575 !important;  }
+
+
+
